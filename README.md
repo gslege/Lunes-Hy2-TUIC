@@ -1,7 +1,7 @@
-###官网地址：https://lunes.host###
+###官网地址：https://lunes.host
 
 
-###node.js部署：###
+###node.js部署：
 
 tuic.sh给与755或777权限，
 
@@ -12,7 +12,7 @@ tuic.sh给与755或777权限，
 系统版本建议20
 
 
-###Python部署：###
+###Python部署：
 
 hy2.sh给与755或777权限，
 
