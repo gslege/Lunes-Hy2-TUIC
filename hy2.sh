@@ -110,7 +110,7 @@ print_connection_info() {
     echo "   🔑 密码: $AUTH_PASSWORD"
     echo ""
     echo "📱 节点链接（SNI=${SNI}, ALPN=${ALPN}）:"
-    echo "hysteria2://${AUTH_PASSWORD}@${IP}:${SERVER_PORT}?sni=${SNI}&allowInsecure&alpn=${ALPN}#🇺🇸 美国 hy2-lunes.host"
+    echo "hysteria2://${AUTH_PASSWORD}@${IP}:${SERVER_PORT}?sni=${SNI}&alpn=${ALPN}&insecure=1#🇺🇸 美国 hy2-lunes.host"
     echo ""
     echo "📄 客户端配置文件:"
     echo "server: ${IP}:${SERVER_PORT}"
@@ -138,4 +138,5 @@ main() {
 }
 
 main
+
 
